@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "exu-github": {
+      "type": "local",
+      "command": [
+        "C:\\absolute\\path\\to\\github-mcp\\.venv\\Scripts\\python.exe",
+        "C:\\absolute\\path\\to\\github-mcp\\server.py"
+      ],
+      "enabled": true,
+      "environment": {
+        "GITHUB_TOKEN": "github_pat_REPLACE_ME"
+      }
+    }
+  }
+}
